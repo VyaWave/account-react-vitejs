@@ -11,8 +11,7 @@ export default function () {
   return (
     <>
       <div className="button_wrap" onClick={() => setCount(count + 1)}>我是一个Button</div>
-
-      <p>我被点击了 { count } 次</p>
+      <p>我被点击了 { count } 次, 只是为了测试使用</p>
     </>
   )
 
