@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+
 import { Button } from "antd"
 
-import './styles.scss'
+import './styles.less'
 
 export default function () {
 

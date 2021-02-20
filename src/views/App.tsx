@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.scss'
 
-import { Button } from '../components/index'
+import { Button, Button2 } from '../components/index'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,7 +40,9 @@ function App() {
           </a>
 
         </p>
-        <Button/>
+        <Button />
+        <Button2 />
+
       </header>
     </div>
   )
